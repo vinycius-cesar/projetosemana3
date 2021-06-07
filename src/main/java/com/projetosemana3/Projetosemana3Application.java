@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @EntityScan(basePackages = {"com.projetosemana3"})
 @ComponentScan(basePackages = {"com.projetosemana3.*"})
-@EnableJpaRepositories(basePackages = {"com.accenture.projetosemana3.repository"})
+@EnableJpaRepositories(basePackages = {"com.projetosemana3.repository"})
 @EnableTransactionManagement
 @RestController
 @EnableAutoConfiguration
